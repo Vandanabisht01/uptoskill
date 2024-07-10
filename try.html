@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+  <nav>
+    <div class="nav"><img id="logo" src="logo.jpg" alt=""></div>
+    <div class="nav"><a href="#" id="mentor"> Be a mentor</a></div>
+    <div class="nav"><button id="login">Login</button></div>
+    <div class="nav"><button id="signup">Sign up</button></div>
+  </nav>
+  <div id="login-container" style="display: none;">
+    <div class="close-btn1">×</div>
+    <h1>Login</h1>
+    <form>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required />
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required />
+      <button type="submit">Login</button>
+    </form>
+  </div>
+
+  <div class="signup-container" style="display: none;">
+    <div class="close-btn2">×</div>
+    <h2>Sign Up</h2>
+    <form>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      <label for="password">Confirm Password:</label>
+      <input type="password" id="password" name="password" required>
+      <button type="submit">Sign Up</button>
+    </form>
+  </div>
+
+  <main>
+    </div id="ad">
+    <div class="content-container">
+      <h2 id="head">Unlock your potential</h2>
+      <p id="line">Unlock your potential by learn from our experts.</p>
+    </div>
+    <div class="background-image-container"><img id="img" src="dom.jpg" alt=""></div>
+
+
+    <div id="profile" style="background-color: beige; height: 590px; padding: 50px;">
+      <div class="profile-card">
+        <img src="avatar.jpg" alt="Avatar" class="avatar">
+        <div class="profile-container">
+          <h4><b>Ritu Kandpal</b></h4>
+          <p>Architect & Engineer</p>
+        </div>
+      </div>
+
+      <div class="profile-card">
+        <img src="avatar.jpg" alt="Avatar" class="avatar">
+        <div class="profile-container">
+          <h4><b>Aradhana Negi</b></h4>
+          <p>Artifical Inteligence & machine learning</p>
+        </div>
+      </div>
+
+      <div class="profile-card">
+        <img src="avatar.jpg" alt="Avatar" class="avatar">
+        <div class="profile-container">
+          <h4><b>Anushka Bisht</b></h4>
+          <p>Cyber Security</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="course" style="background-color: rgb(176, 243, 255); height: 700px;">
+      <div class="course-card">
+        <img src="course.jpg" alt="Avatar" class="course">
+        <div class="course-container">
+          <h4>Introduction to Machine Learning by Aradhana Negi</h4>
+          <p> on DD Month at tt</p>
+        </div>
+      </div>
+
+      <div class="course-card">
+        <img src="course.jpg" alt="Avatar" class="course">
+        <div class="course-container">
+          <h4>Introduction to Machine Learning by Aradhana Negi</h4>
+          <p> on DD Month at tt</p>
+        </div>
+      </div>
+
+      <div class="course-card">
+        <img src="course.jpg" alt="Avatar" class="course">
+        <div class="course-container">
+          <h4>Introduction to Machine Learning by Aradhana Negi</h4>
+          <p> on DD Month at tt</p>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer style="background-color: black; height:200px;"></footer>
+
+</body>
+<script src="script.js"></script>
+
+</html>

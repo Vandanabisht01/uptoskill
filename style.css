@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    background-color: #F5E6CC;
+    height: 80px;
+}
+
+.nav {
+    display: inline-flex;
+    margin: 15px 10px;
+    font-size: 1em;
+}
+
+#mentor {
+    margin-left: 772px;
+    font-family: sans-serif;
+    font-size: 140%;
+    padding: 10px;
+    color: black;
+    border: solid #F5E6CC;
+}
+
+#mentor:hover {
+    text-decoration: underline solid;
+    border-radius: 15px;
+    background-color: #FFB48F;
+    border: solid black;
+}
+
+#login {
+    margin-left: 300px;
+}
+
+#signup {
+    right: 10px;
+    /* margin-left: 30px; */
+}
+
+#logo {
+    width: 115px;
+    margin-left: 20px;
+}
+
+#login,
+#signup {
+    background-color: #3B945E;
+    color: black;
+    padding: 15px 25px;
+    border: solid #3B945E;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    display: flex;
+
+}
+
+#login:hover,
+#signup:hover {
+    border: solid black;
+    background-color: #FFB48F;
+}
+
+body {
+    /* background-image: url("bgi.jpg"); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.background-image-container {
+    display: inline;
+    position: absolute;
+    right: 0;
+}
+
+#ad{
+    height: 578px;
+}
+
+#img {
+    height: 621px;
+}
+
+.content-container {
+    width: 50%;
+    padding: 20px;
+    background-color: #dedede;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+    position: relative;
+    display: inline-block;
+    left: 0;
+    width: 950px;
+    height: 578px;
+}
+
+#head {
+    font-size: 3em;
+    font-weight: bold;
+    color: #7a5555;
+    padding: 30px;
+}
+
+#line {
+    width: 100%;
+    height: 1px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 auto;
+    padding: 30px;
+    font-size: 4em;
+}
+
+.background-image-container:hover.fade-in {
+    opacity: 1;
+}
+
+
+
+
+
+.profile-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 400px;
+    padding: 30px;
+    background-color: #fff;
+    display: inline-block;
+    margin: 69px;
+    height: 414px;
+  }
+  .avatar{
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .profile-container {
+    text-align: center;
+    display: block;
+    padding: 35px 16px;
+  }
+
+  .container p{
+    padding: 6px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .container h4{
+    font-size: 1.2em;
+  }
+  
+  .course{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .course-container {
+    text-align: center;
+    display: block;
+    padding: 35px 16px;
+  }
+
+  .course-container p{
+    padding: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .course-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 400px;
+    padding: 47px;
+    background-color: #aff6f8;
+    display: inline-block;
+    margin: 69px;
+    height: 414px;
+  }
